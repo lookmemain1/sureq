@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>哈商大饺子园 - 智信溯源</title>
+    <!-- 引入高端字体 Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 动态背景特效 -->
+    <div class="bg-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <!-- 沉浸式头部 -->
+    <header class="hero-header">
+        <div class="hero-overlay"></div>
+        <img src="https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="背景图" class="hero-bg">
+        <div class="hero-content">
+            <div class="verified-badge">
+                <i class="fas fa-shield-check"></i> 官方认证商铺
+            </div>
+            <h1>哈商大A区食堂饺子园</h1>
+            <p class="subtitle">全链路数字溯源体系</p>
+        </div>
+    </header>
+
+    <!-- 悬浮导航栏 -->
+    <div class="nav-wrapper">
+        <nav class="nav-tabs">
+            <button class="tab-btn active" data-target="shop-info">
+                <i class="fas fa-store"></i> <span>商铺主页</span>
+            </button>
+            <button class="tab-btn" data-target="trace-timeline">
+                <i class="fas fa-route"></i> <span>溯源时空</span>
+            </button>
+            <button class="tab-btn" data-target="cert-module">
+                <i class="fas fa-fingerprint"></i> <span>数字防伪</span>
+            </button>
+        </nav>
+    </div>
+
+    <main class="main-content">
+        <!-- 1. 现代化商铺介绍 -->
+        <section id="shop-info" class="content-section active">
+            <div class="glass-card animate-up">
+                <div class="card-header">
+                    <h2><i class="fas fa-quote-left"></i> 坚守本味，透明可视</h2>
+                </div>
+                <div class="card-body">
+                    <p class="desc">扎根哈尔滨商业大学A区食堂十年，我们始终坚持纯手工现包。通过引入最新的 AI 与区块链溯源技术，我们让每一颗饺子的前世今生都清晰可见。</p>
+                    <div class="feature-tags">
+                        <div class="feature-tag">
+                            <i class="fas fa-hand-sparkles"></i>
+                            <span>纯手工制</span>
+                        </div>
+                        <div class="feature-tag">
+                            <i class="fas fa-leaf"></i>
+                            <span>当日鲜采</span>
+                        </div>
+                        <div class="feature-tag">
+                            <i class="fas fa-eye"></i>
+                            <span>明厨亮灶</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card animate-up" style="animation-delay: 0.1s;">
+                <div class="card-header border-bottom">
+                    <h3><i class="fas fa-chart-pie"></i> 实时运营数据</h3>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-value text-gradient">24</span>
+                        <span class="stat-label">今日供应品类</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-value text-gradient">100%</span>
+                        <span class="stat-label">抽检合格率</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-value text-gradient">0℃</span>
+                        <span class="stat-label">冷链保鲜标准</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. 高科技溯源时间轴 -->
+        <section id="trace-timeline" class="content-section">
+            <div class="timeline-wrapper animate-up">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-node">
+                    <div class="node-indicator glow-green"></div>
+                    <div class="glass-card node-content">
+                        <div class="node-time">04:30 AM</div>
+                        <h3>原产地直采</h3>
+                        <p>黑龙江本地散养黑猪肉，北大荒特级面粉。</p>
+                        <div class="tech-badge"><i class="fas fa-map-marker-alt"></i> 产地直连溯源</div>
+                    </div>
+                </div>
+
+                <div class="timeline-node">
+                    <div class="node-indicator glow-blue"></div>
+                    <div class="glass-card node-content">
+                        <div class="node-time">05:45 AM</div>
+                        <h3>冷链物流配送</h3>
+                        <p>全程 0-4℃ 恒温冷链车运输至哈商大。</p>
+                        <div class="tech-badge"><i class="fas fa-temperature-low"></i> IoT 实时温控</div>
+                    </div>
+                </div>
+
+                <div class="timeline-node">
+                    <div class="node-indicator glow-purple"></div>
+                    <div class="glass-card node-content">
+                        <div class="node-time">06:30 AM</div>
+                        <h3>食堂数字入库</h3>
+                        <p>库管员扫码核验动物检疫证明并上链存证。</p>
+                        <div class="tech-badge"><i class="fab fa-hive"></i> 区块链上链</div>
+                    </div>
+                </div>
+
+                <div class="timeline-node">
+                    <div class="node-indicator glow-orange"></div>
+                    <div class="glass-card node-content">
+                        <div class="node-time">07:00 AM</div>
+                        <h3>农残快检公示</h3>
+                        <p>抽检批次蔬菜，农药残留指标均显示为阴性。</p>
+                        <div class="tech-badge"><i class="fas fa-vial"></i> 检验合格</div>
+                    </div>
+                </div>
+
+                <div class="timeline-node">
+                    <div class="node-indicator glow-primary"></div>
+                    <div class="glass-card node-content">
+                        <div class="node-time">11:00 AM</div>
+                        <h3>标准烹饪上桌</h3>
+                        <p>经过高温沸煮，确保中心温度达标，安全上桌。</p>
+                        <div class="tech-badge"><i class="fas fa-check-double"></i> 安心享用</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. AI 质检与数字证书 -->
+        <section id="cert-module" class="content-section">
+            
+            <div class="blockchain-status animate-up">
+                <div class="status-icon pulse"><i class="fab fa-bitcoin"></i></div>
+                <div class="status-text">
+                    <h4>区块链防伪存证运行中</h4>
+                    <p>当前哈希: <span class="hash">0x8f2a...9b4c</span></p>
+                </div>
+            </div>
+
+            <div class="cert-grid">
+                <!-- AI 监控 -->
+                <div class="glass-card animate-up hover-scale" style="animation-delay: 0.1s;">
+                    <div class="cert-header ai-header">
+                        <i class="fas fa-robot"></i> AI 后厨行为分析
+                    </div>
+                    <div class="cert-body">
+                        <div class="ai-visual">
+                            <div class="scanner-line"></div>
+                            <i class="fas fa-user-check"></i>
+                            <div class="ai-tags">
+                                <span class="ai-tag">口罩佩戴: 100%</span>
+                                <span class="ai-tag">厨师帽: 100%</span>
+                            </div>
+                        </div>
+                        <p class="cert-desc mt-3">智能视觉分析系统实时监控，未发现违规操作。</p>
+                    </div>
+                </div>
+
+                <!-- 电子检疫证明 -->
+                <div class="glass-card animate-up hover-scale" style="animation-delay: 0.2s;">
+                    <div class="cert-header gov-header">
+                        <i class="fas fa-stamp"></i> 动物检疫合格证明
+                    </div>
+                    <div class="cert-body">
+                        <div class="doc-visual">
+                            <i class="fas fa-file-signature doc-icon"></i>
+                            <div class="watermark">CERTIFIED</div>
+                        </div>
+                        <ul class="doc-details">
+                            <li><span>检验批次：</span>20230514-A3</li>
+                            <li><span>检疫结果：</span><strong class="text-emerald">合格</strong></li>
+                            <li><span>签发机构：</span>哈尔滨市动检局</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="modern-footer">
+        <div class="footer-content">
+            <div class="footer-logo"><i class="fas fa-leaf"></i> 智信餐饮溯源</div>
+            <p>Vibe Coding AI 驱动引擎构建</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
